@@ -27,7 +27,7 @@ public final class PickGenerator {
             throw new IllegalArgumentException("min greater than max");
         }
 
-        if (count > (max - min)) {
+        if (count > (1 + max - min)) {
             throw new IllegalArgumentException("count greater than number range");
         }
 
